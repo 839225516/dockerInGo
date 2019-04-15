@@ -45,7 +45,9 @@ func main() {
 
 	# 然后再查看一下
 	ipcs -q
-
+	------ Message Queues --------
+	key        msqid      owner      perms      used-bytes   messages
+	0xf1b5e055 0          root       644        0            0
 
 	# 再在宿主机的shell 查看是否有这个message queue
 	ipcs -q
